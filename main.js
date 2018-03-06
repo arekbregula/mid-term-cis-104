@@ -56,7 +56,7 @@ function showMenu() {
     console.log("\n\n------------------------------------------------");
     console.log("You can perform the following actions: ");
     for(let i = 0; i < MENU.length; i++) {
-        console.log("\t" + MENU[i].text);
+        console.log(`\t${MENU[i].text}`);
     }
 }
 
